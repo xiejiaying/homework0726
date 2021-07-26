@@ -1,5 +1,6 @@
 from selenium import webdriver
 
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 driver.get("http//www.baidu.com")
+driver.implicitly_wait(100)
 print("xinzeng")
